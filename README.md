@@ -22,7 +22,7 @@ This repo contains proposed solutions to the [Moroccan Collegiate Programming Co
 |Contest - A|:heavy_check_mark:|-|-|-|
 |Contest - B|-|-|-|-|
 |Contest - C|-|-|:heavy_check_mark:|-|
-|Contest - D|-|:heavy_check_mark:|-|-|
+|Contest - D|-|:heavy_check_mark:|:heavy_check_mark:|-|
 |Contest - E|-|-|-|-|
 |Contest - F|-|-|-|-|
 |Contest - G|-|:heavy_check_mark:|-|-|
