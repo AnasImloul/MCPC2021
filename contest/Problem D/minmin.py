@@ -1,5 +1,5 @@
 def solve(A, N):
-    We want to rearrange the array in such a way
+    # We want to rearrange the array in such a way
     # that the successive differences between odd indices
     # or the successive differences between odd indices 
     # is minimized # because we have complete freedom to choose
