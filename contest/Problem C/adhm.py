@@ -66,29 +66,33 @@ def solve1(N,S,X):
 # until a patterm was emerged
 
 
-
-# function returns True if adhm can win else returns False
+# function that returns True if adhm can win else returns False
 def solve(N,S,X):
     
     # if S < N means that there is always a zero in the array
     # since every number divides zero then methat can choose [0] and he will win
     if S < N:
         return False
-    else:
-        # if X >= N then X > S (because )
-        # if X >= S then methat can't find a winning subsequence
-        # since any subsequence have a sum that is less than S -> less than X
-        # and we know that K is divisible by X implies K == 0 or K >= X
-        # and since S >= N adhm can make an array with no zeros
-        # then methat can never win
-        # example : N,S,X = 6,10,17 -> array = [1,1,1,1,6] -> no winning subsequence exists
-        if X >= N:
+    
+    # if S == N that means adhm can only make an array with every element as 1
+    elif S == N:
+        # if 
+        if X >= S:
             return True
+        else:
+            return False
         
-        # otherwise there is always a way for methat to win
+    # if S > N then adhm can make array with any numbers he want
+    else:       
+        if X > S:
+            return True
+        elif X > N:
+            return True
         else:
             return False
             
+
+
 # Try testing if the result of solve is the same as the result of solve1
 
 
